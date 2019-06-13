@@ -1,4 +1,16 @@
+/* Variables */
+/* Global */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
 body {
+  margin: 0;
+  font-size: 16px;
+  line-height: 1.7;
+  color: #2c2c54;
   font-family: "Inconsolata", monospace;
 }
 
