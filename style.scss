@@ -21,3 +21,12 @@ body {
   color: $color-four;
   font-family: $font-text;
 }
+
+.container {
+  max-width: 1140px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+.section {
+  padding: 96px 0;
+}
