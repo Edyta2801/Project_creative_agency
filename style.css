@@ -28,12 +28,27 @@ body {
 .navigation {
   background: #0097e6;
   padding: 12px 0;
+  color: white;
 }
 
 .navigation ul {
   padding: 0;
   margin: 0;
   list-style-type: none;
+}
+
+.navigation li {
+  display: contents;
+  margin-right: 36px;
+  position: relative;
+}
+
+.navigation a {
+  text-decoration: none;
+}
+
+.navigation:hover {
+  color: #33d9b2;
 }
 
 /*# sourceMappingURL=style.css.map */
