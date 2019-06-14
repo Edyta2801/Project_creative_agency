@@ -12,8 +12,6 @@ body {
   line-height: 1.7;
   color: #2c2c54;
   font-family: "Inconsolata", monospace;
-  background: #0097e6;
-  /*  */
 }
 
 .container {
@@ -65,7 +63,6 @@ body {
   display: none;
   position: absolute;
   background: #fff;
-  padding: 0 24px;
   left: 50%;
   transform: translateX(-50%);
   padding-top: 12px;
@@ -84,6 +81,14 @@ body {
 
 .navigation li li a:hover {
   color: #33d9b2;
+}
+
+/* Splash*/
+.splash {
+  background: #0097e6;
+  color: #fff;
+  min-height: 500px;
+  display: flex;
 }
 
 /*# sourceMappingURL=style.css.map */
