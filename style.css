@@ -28,7 +28,7 @@ body {
 .navigation {
   background: #0097e6;
   padding: 12px 0;
-  color: white;
+  color: #fff;
 }
 
 .navigation ul {
@@ -45,9 +45,11 @@ body {
 
 .navigation a {
   text-decoration: none;
+  color: #fff;
+  padding-left: 20px;
 }
 
-.navigation:hover {
+.navigation a:hover {
   color: #33d9b2;
 }
 

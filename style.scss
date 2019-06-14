@@ -6,6 +6,8 @@ $color-one: #0097e6;
 $color-two: #33d9b2;
 $color-three: #ff5252;
 $color-four: #2c2c54;
+$color-five: #fff;
+
 
 /* Global */
 *,
@@ -35,7 +37,7 @@ body {
 .navigation {
   background: $color-one;
   padding: 12px 0;
-  color:white;
+  color:$color-five;
 }
 .navigation ul {
   padding: 0;
@@ -50,7 +52,9 @@ body {
 }
 .navigation a{
     text-decoration: none;
+    color:$color-five;
+    padding-left: 20px;
 }
-.navigation:hover{
+.navigation a:hover{
     color:#33d9b2;
 }
