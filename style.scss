@@ -63,8 +63,6 @@ body {
   background-position: 0 100%;
 }
 
-
-
 /* Navigation */
 
 .navigation {
@@ -151,3 +149,14 @@ body {
   font-weight: 900;
 }
 
+/* Our services */
+.wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.box-one,
+.box-two,
+.box-three {
+  flex: 0 0 33.333%;
+}
