@@ -8,7 +8,6 @@ $color-three: #ff5252;
 $color-four: #2c2c54;
 $color-five: #fff;
 
-
 /* Global */
 *,
 *::before,
@@ -22,6 +21,8 @@ body {
   line-height: 1.7;
   color: $color-four;
   font-family: $font-text;
+  background: #0097e6;
+  /*  */
 }
 
 .container {
@@ -37,7 +38,7 @@ body {
 .navigation {
   background: $color-one;
   padding: 12px 0;
-  color:$color-five;
+  color: $color-five;
 }
 .navigation ul {
   padding: 0;
@@ -45,21 +46,49 @@ body {
   list-style-type: none;
 }
 
+/* link pierwszego poziomu */
 .navigation li {
   display: inline-block;
   margin-right: 36px;
   position: relative;
 }
-.navigation a{
-    text-decoration: none;
-    color:$color-five;
-    padding-left: 20px;
+
+.navigation a {
+  text-decoration: none;
+  color: $color-five;
+  padding-left: 20px;
 }
-.navigation a:hover{
-    color:#33d9b2;
+.navigation a:hover {
+  color: $color-two;
 }
-.navigation ul ul li{
-  display:block;
+.navigation ul ul li {
+  display: block;
   margin-bottom: 12px;
-  display:none;
+  // padding:0 24px;
+  // display: none;
+  // position: absolute;
+}
+
+.navigation ul ul {
+  display: none;
+  position: absolute;
+  background: $color-five;
+  padding: 0 24px;
+  left: 50%;
+  transform: translateX(-50%);
+  padding-top: 12px;
+}
+.navigation li:hover ul {
+  display: block;
+  text-align: center;
+}
+
+/* linki IIgo poziomu */
+.navigation li li a {
+  color: $color-one;
+  display: block;
+  // padding:0 24px;
+}
+.navigation li li a:hover {
+  color: $color-two;
 }

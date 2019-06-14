@@ -12,6 +12,8 @@ body {
   line-height: 1.7;
   color: #2c2c54;
   font-family: "Inconsolata", monospace;
+  background: #0097e6;
+  /*  */
 }
 
 .container {
@@ -37,6 +39,7 @@ body {
   list-style-type: none;
 }
 
+/* link pierwszego poziomu */
 .navigation li {
   display: inline-block;
   margin-right: 36px;
@@ -56,7 +59,31 @@ body {
 .navigation ul ul li {
   display: block;
   margin-bottom: 12px;
+}
+
+.navigation ul ul {
   display: none;
+  position: absolute;
+  background: #fff;
+  padding: 0 24px;
+  left: 50%;
+  transform: translateX(-50%);
+  padding-top: 12px;
+}
+
+.navigation li:hover ul {
+  display: block;
+  text-align: center;
+}
+
+/* linki IIgo poziomu */
+.navigation li li a {
+  color: #0097e6;
+  display: block;
+}
+
+.navigation li li a:hover {
+  color: #33d9b2;
 }
 
 /*# sourceMappingURL=style.css.map */
