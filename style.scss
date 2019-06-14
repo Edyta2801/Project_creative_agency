@@ -31,6 +31,25 @@ body {
 .section {
   padding: 96px 0;
 }
+.btn {
+  display: inline-block;
+  min-width: 160px;
+  margin: 24 auto 0 auto;
+  padding: 16px;
+  border-radius: 5px;
+  font-family: $font-text;
+  font-size: 16px;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  border-width: 2px;
+  border-style: solid;
+}
+
+.btn-one {
+  border-color: $color-five;
+  color: $color-five;
+}
 
 /* Navigation */
 
