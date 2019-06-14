@@ -46,7 +46,7 @@ body {
 }
 
 .navigation li {
-  display: contents;
+  display: inline-block;
   margin-right: 36px;
   position: relative;
 }
@@ -57,4 +57,9 @@ body {
 }
 .navigation a:hover{
     color:#33d9b2;
+}
+.navigation ul ul li{
+  display:block;
+  margin-bottom: 12px;
+  display:none;
 }
