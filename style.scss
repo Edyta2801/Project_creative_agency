@@ -2,6 +2,7 @@
 
 $font-header: "Signika Negative", sans-serif;
 $font-text: "Inconsolata", monospace;
+$font-number:'Abril Fatface', cursive;
 $color-one: #0097e6;
 $color-two: #33d9b2;
 $color-three: #ff5252;
@@ -154,9 +155,41 @@ body {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  position: relative;
 }
 .box-one,
 .box-two,
 .box-three {
   flex: 0 0 33.333%;
+}
+
+.box-one h1,
+.box-two h1,
+.box-three h1 {
+  position: absolute;
+  font-size: 144px;
+  line-height: 1;
+  top: -140px;
+  opacity: 0.2;
+  color: $color-two;
+  font-size: 144px;
+  line-height: 1;
+  font-style:$font-header; 
+}
+
+.box-one-title,
+.box-two-title,
+.box-three-title {
+  font-size: 24px;
+  margin: 0 0 12px 0;
+}
+
+.services .title {
+  font-size: 48px;
+  margin: 0 0 72px 0;
+}
+.box-one-subtitle,
+.box-two-subtitle,
+.box-three-subtitle {
+  font-size: 14px;
 }
