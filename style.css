@@ -148,6 +148,10 @@ body {
 }
 
 /* Our services */
+.services {
+  margin: 96px 0;
+}
+
 .wrapper {
   display: flex;
   flex-wrap: wrap;
@@ -172,7 +176,7 @@ body {
   color: #33d9b2;
   font-size: 144px;
   line-height: 1;
-  font-style: "Signika Negative", sans-serif;
+  font-style: "Abril Fatface", cursive;
 }
 
 .box-one-title,
@@ -191,6 +195,17 @@ body {
 .box-two-subtitle,
 .box-three-subtitle {
   font-size: 14px;
+  font-weight: 900;
+  margin: 0;
+}
+
+.box-one-content,
+.box-two-content,
+.box-three-content {
+  font-size: 14px;
+  padding-right: 20px;
+  margin: 0;
+  padding-bottom: 20px;
 }
 
 /*# sourceMappingURL=style.css.map */
