@@ -162,9 +162,9 @@ body {
   flex: 0 0 33.333%;
 }
 
-.box-one h1,
-.box-two h1,
-.box-three h1 {
+.box-one h2,
+.box-two h2,
+.box-three h2 {
   position: absolute;
   font-size: 144px;
   line-height: 1;
@@ -183,7 +183,7 @@ body {
   margin: 0 0 12px 0;
 }
 
-.services .title {
+.container h1 {
   font-size: 48px;
   margin: 0 0 72px 0;
 }
@@ -221,6 +221,27 @@ body {
   border-color: #0097e6;
   color: #0097e6;
   background-image: linear-gradient(90deg, #0097e6 50%, transparent 50%);
+}
+
+/* our work */
+.box1,
+.box2,
+.box3,
+.box4 {
+  flex: 0 0 50%;
+  min-height: 300px;
+}
+
+img {
+  max-width: 250px;
+  height: 100%;
+}
+
+.btn-five {
+  border: none;
+  margin: 36px 0;
+  padding: 0;
+  text-align: left;
 }
 
 /*# sourceMappingURL=style.css.map */
