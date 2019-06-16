@@ -228,34 +228,35 @@ body {
 }
 
 /* our work */
-[class^="box-"] {
-  position: relative;
-}
 
 .box {
   flex: 0 0 50%;
   min-height: 300px;
+  position: relative;
+  min-height: 300px;
+  margin-bottom: 96px;
 }
 
 .box-image {
   position: absolute;
   width: 50%;
   height: 100%;
-  // overflow: hidden;
+  overflow: hidden;
   z-index: 1;
   // padding: 36px 0 36px 55%;
   text-align: left;
   object-fit: cover;
 }
 .box-image img {
-  max-width: 250px;
+  width: 100%;
   height: 100%;
   object-fit: cover;
-  transition: all 1s;
+  max-width:250px;
+  // transition: all 1s;
 }
 .box-description {
-  margin: 0 auto;
-  // padding: 36px 0 36px 55%;
+  margin:0 auto;
+  padding: 36px 0px 36px 55%;
   text-align: left;
 }
 
