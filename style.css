@@ -224,17 +224,34 @@ body {
 }
 
 /* our work */
-.box1,
-.box2,
-.box3,
-.box4 {
+[class^=box-] {
+  position: relative;
+}
+
+.box {
   flex: 0 0 50%;
   min-height: 300px;
 }
 
-img {
+.box-image {
+  position: absolute;
+  width: 50%;
+  height: 100%;
+  z-index: 1;
+  text-align: left;
+  object-fit: cover;
+}
+
+.box-image img {
   max-width: 250px;
   height: 100%;
+  object-fit: cover;
+  transition: all 1s;
+}
+
+.box-description {
+  margin: 0 auto;
+  text-align: left;
 }
 
 .btn-five {
