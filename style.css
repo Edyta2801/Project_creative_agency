@@ -236,10 +236,14 @@ body {
   position: absolute;
   width: 50%;
   height: 100%;
-  overflow: hidden;
   z-index: 1;
   text-align: left;
   object-fit: cover;
+}
+
+.box-image:hover {
+  opacity: 0.3;
+  padding-right: 20px;
 }
 
 .box-image img {
@@ -260,6 +264,7 @@ body {
   margin: 36px 0;
   padding: 0;
   text-align: left;
+  color: #33d9b2;
 }
 
 /*# sourceMappingURL=style.css.map */
