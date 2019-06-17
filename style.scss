@@ -257,7 +257,6 @@ body {
   left: 5%;
   top: 10%;
   transition: width 1s, height 1s;
-  
 }
 .box-image img {
   width: 100%;
@@ -269,6 +268,9 @@ body {
   // opacity:0.3;
 }
 
+.transparent-box {
+  opacity:0.3;
+}
 .box-description {
   margin: 0 auto;
   padding: 36px 0px 36px 55%;
