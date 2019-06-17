@@ -250,7 +250,7 @@ body {
 }
 .box-image:hover {
   opacity: 0.3;
-  padding-right:20px;
+  padding-right: 20px;
 }
 .box-image img {
   width: 100%;
@@ -271,4 +271,7 @@ body {
   padding: 0;
   text-align: left;
   color: $color-two;
+}
+p:last-of-type {
+  font-weight: bolder;
 }

@@ -267,4 +267,8 @@ body {
   color: #33d9b2;
 }
 
+p:last-of-type {
+  font-weight: bolder;
+}
+
 /*# sourceMappingURL=style.css.map */
