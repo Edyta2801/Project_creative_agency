@@ -281,6 +281,7 @@ p:last-of-type {
 .contact {
   background: #0097e6;
   color: #fff;
+  padding: 96px 0 96px 0;
 }
 
 form {

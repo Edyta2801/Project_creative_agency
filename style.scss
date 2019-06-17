@@ -289,14 +289,18 @@ p:last-of-type {
   font-weight: bolder;
 }
 
+
 /* Contact */
+
 .contact {
   background: $color-one;
   color: $color-five;
+  padding:96px 0 96px 0;
 }
 form {
   flex: 2 0 0;
   // padding-right: 96px;
+
 }
 .specialist {
   flex: 1 0 0;
