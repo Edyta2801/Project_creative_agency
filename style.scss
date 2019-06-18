@@ -289,19 +289,43 @@ p:last-of-type {
   font-weight: bolder;
 }
 
-
 /* Contact */
 
 .contact {
   background: $color-one;
   color: $color-five;
-  padding:96px 0 96px 0;
+  padding: 96px 0 96px 0;
 }
 form {
   flex: 2 0 0;
-  // padding-right: 96px;
-
+  justify-content: flex-end;
+  margin-right: 96px;
 }
 .specialist {
   flex: 1 0 0;
+  font-size: 20px;
+}
+.sales-bold {
+  font-weight: 900;
+}
+.field-wrap {
+  display: flex;
+  justify-content: flex-end;
+  border: none;
+}
+.field-wrap input {
+  flex: 1;
+  padding: 10px;
+  border: none;
+  text-underline-position: below;
+  background: $color-one;
+  border-bottom: 3px solid $color-five;
+  color: $color-five;
+}
+.field-wrap textarea {
+  flex: 1;
+  padding: 10px;
+  border-bottom: 3px solid $color-five;
+  color: $color-five;
+  background: $color-one;
 }
