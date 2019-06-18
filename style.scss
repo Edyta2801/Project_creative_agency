@@ -250,14 +250,14 @@ body {
   margin: 0;
   // transition: width 1s, height 1s;
 }
-.box-image:hover {
-  opacity: rgba(0, 255, 0, 0.3);
-  // width: 60%;
-  // height: 110%;
-  left: 5%;
-  top: 10%;
-  // transition: width 1s, height 1s;
-}
+// .box-image:hover {
+//   opacity: rgba(0, 255, 0, 0.3);
+//   // width: 60%;
+//   // height: 110%;
+//   left: 5%;
+//   top: 10%;
+//   // transition: width 1s, height 1s;
+// }
 .box-image img {
   width: 100%;
   height: 100%;
@@ -269,9 +269,22 @@ body {
 }
 
 .transparent-box {
-  // opacity:0.3;
-  background: rgba(0, 0, 0, 0.5);
+  opacity: 0.3;
+  background: $color-two;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  max-width: 250px;
+  transition: 1s;
+
+  &:hover {
+    top: 0;
+    left: 0;
+  }
 }
+
 .box-description {
   margin: 0 auto;
   padding: 36px 0px 36px 55%;
@@ -322,12 +335,22 @@ form {
   border-bottom: 3px solid $color-five;
   color: $color-five;
 }
+
+.field-wrap input::placeholder {
+  color: $color-five;
+}
+
 .field-wrap textarea {
   flex: 1;
   padding: 10px;
+  border: none;
   border-bottom: 3px solid $color-five;
   color: $color-five;
   background: $color-one;
+}
+
+.contact .btn-one {
+  margin-top: 96px;
 }
 
 @media (max-width: 767px) {

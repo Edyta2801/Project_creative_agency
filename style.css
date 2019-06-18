@@ -241,12 +241,6 @@ body {
   margin: 0;
 }
 
-.box-image:hover {
-  opacity: rgba(0, 255, 0, 0.3);
-  left: 5%;
-  top: 10%;
-}
-
 .box-image img {
   width: 100%;
   height: 100%;
@@ -256,7 +250,19 @@ body {
 }
 
 .transparent-box {
-  background: rgba(0, 0, 0, 0.5);
+  opacity: 0.3;
+  background: #33d9b2;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  max-width: 250px;
+  transition: 1s;
+}
+.transparent-box:hover {
+  top: 0;
+  left: 0;
 }
 
 .box-description {
@@ -315,12 +321,21 @@ form {
   color: #fff;
 }
 
+.field-wrap input::placeholder {
+  color: #fff;
+}
+
 .field-wrap textarea {
   flex: 1;
   padding: 10px;
+  border: none;
   border-bottom: 3px solid #fff;
   color: #fff;
   background: #0097e6;
+}
+
+.contact .btn-one {
+  margin-top: 96px;
 }
 
 @media (max-width: 767px) {
