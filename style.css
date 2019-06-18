@@ -224,7 +224,7 @@ body {
 }
 
 /* our work */
-.box {
+.our-work .box {
   flex: 0 0 50%;
   min-height: 300px;
   position: relative;
@@ -232,7 +232,7 @@ body {
   margin-bottom: 96px;
 }
 
-.box-image {
+.our-work .box-image {
   position: absolute;
   width: 50%;
   height: 100%;
@@ -241,7 +241,7 @@ body {
   margin: 0;
 }
 
-.box-image img {
+.our-work .box-image img {
   width: 100%;
   height: 100%;
   margin: 0;
@@ -249,7 +249,7 @@ body {
   max-width: 250px;
 }
 
-.transparent-box {
+.our-work .transparent-box {
   opacity: 0.3;
   background: #33d9b2;
   width: 100%;
@@ -260,18 +260,18 @@ body {
   max-width: 250px;
   transition: 1s;
 }
-.transparent-box:hover {
+.our-work .transparent-box:hover {
   top: 0;
   left: 0;
 }
 
-.box-description {
+.our-work .box-description {
   margin: 0 auto;
   padding: 36px 0px 36px 55%;
   text-align: left;
 }
 
-.btn-five {
+.our-work .btn-five {
   border: none;
   margin: 36px 0;
   padding: 0;
