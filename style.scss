@@ -329,3 +329,9 @@ form {
   color: $color-five;
   background: $color-one;
 }
+
+@media (max-width: 767px) {
+  .wrapper {
+    flex-direction: column;
+  }
+}
