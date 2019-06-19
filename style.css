@@ -388,9 +388,26 @@ form {
   transform: scale(1.2);
 }
 
+/* Media */
 @media (max-width: 767px) {
   .wrapper {
     flex-direction: column;
+  }
+
+  .our-work .box-image {
+    max-width: 100%;
+    height: 150px;
+    position: relative;
+  }
+
+  .our-work .transparent-box {
+    max-width: 100%;
+    height: 150px;
+    position: relative;
+  }
+
+  .our-work .box {
+    flex-direction: unset;
   }
 }
 
