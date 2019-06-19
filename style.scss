@@ -346,6 +346,34 @@ form {
   margin-top: 96px;
 }
 
+/* Footer */
+
+footer ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+footer li {
+  font-size: 0;
+  display: flex;
+}
+footer {
+  margin: 48px 0 48px 0;
+}
+
+footer i {
+  font-size: 30px;
+  // padding-right: 30px;
+  width: 60px;
+  height: 60px;
+  background: $color-three;
+  border-radius: 50%;
+  text-align: center;
+  justify-content: space-between;
+}
+
 @media (max-width: 767px) {
   .wrapper {
     flex-direction: column;
