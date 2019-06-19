@@ -363,11 +363,12 @@ form {
   font-size: 0;
   display: flex;
   padding-right: 30px;
+  transition: all 1s;
+  transition: transform 0.3s;
 }
 
 .footer a {
   display: flex;
-  font-size: 30px;
   width: 60px;
   height: 60px;
   background: #ff5252;
@@ -375,10 +376,16 @@ form {
   justify-content: center;
   align-items: center;
   font-size: 0;
+  color: #ff5252;
 }
 
 .footer i {
   font-size: 30px;
+  color: #fff;
+}
+
+.footer li:hover {
+  transform: scale(1.2);
 }
 
 @media (max-width: 767px) {
