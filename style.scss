@@ -348,23 +348,25 @@ form {
 
 /* Footer */
 
-footer ul {
+.footer {
+  margin: 48px 0;
+}
+.footer ul {
+  height: 100%;
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
+
 }
 
-footer li {
+.footer li {
   font-size: 0;
   display: flex;
   padding-right: 30px;
 }
-footer {
-  margin: 48px 0 48px 0;
-  background: $color-one;
-}
-footer a{
+
+.footer a {
   display: flex;
   font-size: 30px;
   width: 60px;
@@ -376,10 +378,8 @@ footer a{
   font-size: 0;
 }
 
-footer i {
+.footer i {
   font-size: 30px;
-
-
 }
 
 @media (max-width: 767px) {
