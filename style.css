@@ -487,6 +487,11 @@ form {
   .contact .wrapper {
     align-items: unset;
   }
+
+  footer a {
+    height: 40px;
+    width: 40px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
