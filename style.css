@@ -396,7 +396,7 @@ form {
 
   .our-work .box-image {
     max-width: 100%;
-    height: 150px;
+    height: 250px;
     width: 100%;
     position: relative;
   }
@@ -411,7 +411,7 @@ form {
 
   .our-work .transparent-box {
     width: 100%;
-    height: 150px;
+    height: 250px;
     position: absolute;
     max-width: none;
   }
